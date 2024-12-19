@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: url(work-place-student-desktop-with-lamp-opened-notebook-stationery-green-indoor-plant-mug-coffee-sticky-notes-blue-home-office.jpg);
+    background-size: cover;
+    backdrop-filter: blur(15px);
+    height: 140vh;
+}
+section h2{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+section table{
+    margin: 0 90px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+section form div{
+    margin: 50px 350px 50px 350px;
+    padding: 20px 50px 20px 50px;
+    border-radius: 5px;
+    background-color: white;
+    /* background: url(work-place-student-desktop-with-lamp-opened-notebook-stationery-green-indoor-plant-mug-coffee-sticky-notes-blue-home-office.jpg); */
+    /* background-size: cover; */
+    /* backdrop-filter: blur(15px); */
+    /* padding: 50px; */
+    /* background-color: antiquewhite; */
+}
+table tr td{
+    color: rgb(0, 0, 0);
+    width:90px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+table tr td input{
+    color: rgb(0, 0, 0);
+    height: 30px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid steelblue;
+    background: transparent;
+    width: 130%;
+    padding-left: 5px;
+    /* text-align: center; */
+}
+table tr td textarea{
+    height: 100px;
+    outline: none;
+    padding: 5px;
+    margin-top: 5px;
+    border: 2px solid steelblue;
+    background: transparent;
+    border-radius: 4px;
+    /* border-bottom: 1px solid steelblue; */
+    /* background: transparent; */
+    width: 138%;
+    /* text-align: center; */
+}
+button{
+    background-color: steelblue;
+    padding: 2px 15px 2px 15px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: transform .4s;
+}
+button:hover{
+    transform: scale(1.2);
+}

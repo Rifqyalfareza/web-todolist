@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav{
+    background: #ffffff;
+    display:flex;
+    align-items: center;
+    padding: 9px 7%;
+    /* box-shadow: #06a7f2 0px 5px 10px, #06a7f2 0px 2px 1px; */
+
+}
+
+nav img{
+    position: relative;
+    right: 20px;
+    margin-right: 50px;
+    cursor:pointer;
+}
+nav p{
+    position: absolute;
+    top: 19px;
+    right: 130px;
+    padding: 8px;
+}
